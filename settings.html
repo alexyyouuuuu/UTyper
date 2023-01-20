@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTyper</title>
+    <link rel="stylesheet" href="settingsStyle.css">
+</head>
+<body id = "body">
+    <div class="container" id = "container">
+        <header class = "parent">
+            <p class = "title" id = "title">UTyper</p> 
+            <a href="index.html">
+                <img class="keyboardIcon" id="keyboardIcon" src="images/keyboard-white.png">
+            </a>
+            <img class="settingsIcon" id="settingsIcon_setting" src="images/settings-gear-white.png">
+            <a href="letters.html">
+                <div id="lettersButton" class = "lettersButton">ABC</div>
+            </a>
+            <a href="target.html">
+                <img class="targetIcon" id="targetIcon" src="images/arrow-white.png">
+            </a>
+        </header>
+
+        
+        <div class = "divPageTitle">
+            <p class = "pageTitle" id = "pageTitle">Settings</p>
+        </div>
+        <div id = "themeHeading">
+            <p class = "settingSection" id = "theme">Theme</p>
+        </div>
+            <div class = "nauticalBackground" id="nauticalBackground">
+                <span class ="nauticalText">nautical</span>
+            </div>
+            <div class = "dimBackground" id = "dimBackground">
+                <span class = "dimText">dim</span>
+            </div>
+            <div class = "matrixBackground" id = "matrixBackground">
+                <span class = "matrixText">matrix</span>
+            </div>
+        <div id = "displayDiv">
+            <p class = "settingSection" id = "display">Display</p>
+        </div>
+            <div id = "liveWPMDiv" class = "settingContainer">
+                <div class = "specificSetting" id = "liveWPM">Live WPM</div>
+                <div id = "liveWPMButton" class = "wpmButton"></div>
+            </div>
+            <div id = "livePercentDiv" class = "settingContainer">
+                <div class = "specificSetting" id = "livePercent">Live Accuracy</div>
+                <div id = "livePercentButton" class = "percentButton"></div>
+            </div>
+        
+        
+
+    </div>
+    <script src="globalVariables.js"></script>
+    <script src = "LoadFunctions.js"></script>
+    <script src = "settings.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTyper</title>
+    <link rel="stylesheet" href="targetStyle.css">
+</head>
+<body id = "body">
+    <div class="container" id = "container">
+        <header class = "parent">
+            <p class = "title" id = "title">UTyper</p> 
+            <a href="index.html">
+                <img class="keyboardIcon" id="keyboardIcon" src="images/keyboard-white.png">
+            </a>
+            <a href="settings.html">
+                <img class="settingsIcon" id="settingsIcon" src="images/settings-gear-white.png">
+            </a>
+            <a href="letters.html">
+                <div id="lettersButton" class = "lettersButton">ABC</div>
+            </a>            
+            <img class="targetIcon" id="targetIcon" src="images/arrow-white.png">
+
+        </header>
+        <div id = "instructions" class = "yes">To select characters to target, click on box then press key</div>    
+        <div class = targetBoxContainer>
+            <div class = targetBox id="target1"></div>
+            <div class = targetBox id="target2"></div>
+            <div class = targetBox id="target3"></div>
+            <div class = targetBox id="target4"></div>
+            <div class = targetBox id="target5"></div>
+        </div>
+        <a href="targetTyping.html">        
+            <div class = "continueButton" id = "continueButton">Continue</div>
+        </a>
+    </div>
+    <script src="globalVariables.js"></script>
+    <script src = "LoadFunctions.js"></script>
+    <script src = "settings.js"></script>
+    <script src="main.js"></script>
+    <script src = "target.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTyper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id = "body">
+    <div class="container" id = "container">
+        <header class = "parent">
+            <p class = "title" id = "title">UTyper</p> 
+            <img class="keyboardIcon" id="keyboardIcon" src="images/keyboard-white.png">
+            <a href="settings.html">
+                <img class="settingsIcon" id="settingsIcon" src="images/settings-gear-white.png">
+            </a>
+            <a href="letters.html">
+                <div id="lettersButton" class = "lettersButton">ABC</div>
+            </a>
+            <a href="target.html">
+                <img class="targetIcon" id="targetIcon" src="images/arrow-white.png">
+            </a>
+            
+        </header>
+        <div class = "testParent" id="modes">
+            <p class = "child_words" id = "words">words: </p>
+            <p class = "child_count" id ="10">10</p>
+            <p class = "child_count" id = "20">20</p>
+            <p class = "child_count" id = "40">40</p>
+            <p class = "child_quote" id = "quote">Quote</p>
+        </div>
+        <div class = "trackerParent">
+            <div class = "timer" id = "timer"></div>
+            <div class = "timer" id = "wpm"></div>
+            <div class = "timer" id = "accuracy"></div>
+        </div>
+        <div class="prompt" id = "prompt"></div>
+        
+            
+        
+        <div id="next" class = "next">></div>
+        
+       
+
+    </div>
+    <script src="globalVariables.js"></script>
+    <script src = "LoadFunctions.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>
